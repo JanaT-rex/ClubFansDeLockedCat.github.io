@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+body{
+    color: #040415;
+    background-color:#879684;
+}
+.cabecera{
+  background-image: url(img/gatosmirando.jpg);
+}
+.banner{
+    font-size: 3.5em;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    color:white;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 1%;
+    font-weight: bold;
+    list-style-type: none;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 0px  30px;
+}
+a{
+    color: white;
+    font-size: 1.27em;
+    text-decoration: none;
+}
+nav li :hover{
+    background-color: #354b2c;
+}
+h1{
+    color:white;
+    font-size: 2em;
+}
+footer{
+    width: 100%;
+    height: 290px;
+    background-color:#162123;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+.redes{
+    text-align: right;
+    margin-top: 10%;
+    margin-right:2%;
+}
+h2{
+    margin-top: 10%;
+    font-size: 2.7em;
+    text-align: center;
+    margin-bottom: 5%;
+}
